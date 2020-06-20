@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArchitecture.Domain.Entities\OnionArchitecture.Domain.Entities.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Domain.Interfaces\OnionArchitecture.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Infrastructure.Data\OnionArchitecture.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Services.ApplicationServices\OnionArchitecture.Services.ApplicationServices.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Services.Interfaces\OnionArchitecture.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
